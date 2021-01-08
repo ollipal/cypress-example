@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cypress open"
+    "start": "cypress run --reporter json",
+    "dev": "cypress open"
   },
   "author": "",
   "license": "ISC",
